@@ -1,0 +1,5 @@
+---
+- hosts: 3.134.102.254
+  become: yes
+  roles:
+  - apache
